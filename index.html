@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+    </style>
+
+    <title>STIMO</title>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="header container-fluid overflow-hidden position-relative p-0 mb-5">
+        <div class="container-fluid position-absolute p-0" id="menu-container">
+            <div class="row justify-content-end m-0">
+                <div class="col-md-5 menu">
+                    <div class="row ps-5 m-0 justify-content-between">
+                        <div class="col-md-6 ps-5">
+                            <div class="row my-4 pt-5">
+                                <a href="#" class="menu-item">AKTUELLES</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">ÜBER UNS</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">STIMO GU</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">MEINWOHNTRAUM</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">PARTNER</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">SPONSORING</a>
+                            </div>
+                            <div class="row my-4 pt-2">
+                                <a href="#" class="menu-item">KONTAKT</a>
+                            </div>
+                        </div>
+                        <div class="col-md-1 me-5">
+                            <div class="row my-5">
+                                <a href="#">
+                                    <svg id="closeMenu" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L31 31" stroke="#292D78" stroke-width="2" />
+                                        <path d="M31 1L1 31" stroke="#292D78" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="row my-5">
+                                <a href="#">
+                                    <svg id="search" width="27" height="25" viewBox="0 0 27 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9.85405 18.5273C14.7437 18.5273 18.7081 14.6043 18.7081 9.76364C18.7081 4.92388 14.7437 1 9.85405 1C4.96436 1 1 4.92388 1 9.76364C1 14.6043 4.96436 18.5273 9.85405 18.5273Z"
+                                            stroke="#292D78" stroke-width="2" />
+                                        <path d="M25.9999 23.6817L16.625 15.4336" stroke="#292D78" stroke-width="2" />
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="row my-5 ">
+                                <a href="#">
+                                    <svg id="download" width="33" height="31" viewBox="0 0 33 31" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M31.2716 23.5063V29.9998H1V23.5063" stroke="#292D78" stroke-width="2"
+                                            stroke-miterlimit="10" />
+                                        <path d="M16.1357 22.2077V0" stroke="#292D78" stroke-width="2"
+                                            stroke-miterlimit="10" />
+                                        <path d="M25.349 13.1172L16.1359 22.2081L6.92285 13.1172" stroke="#292D78"
+                                            stroke-width="2" stroke-miterlimit="10" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid opacity p-0">
+            <div class="container-fluid m-auto p-0 w-75">
+                <nav class="row">
+                    <ul class="col-md-12 d-flex justify-content-between m-0 p-0">
+                        <li class="p-0">
+                            <img src="assets/images/Stimo_Gesamtlogo_EDIT-01.png" alt="">
+                        </li>
+                        <li class="p-0 align-self-end pb-4">
+                            <svg id="openMenu" width="40" height="29" viewBox="0 0 40 29" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <line y1="1.5" x2="40" y2="1.5" stroke="url(#paint0_linear_177:266)" stroke-width="3" />
+                                <line y1="27.5" x2="20" y2="27.5" stroke="url(#paint1_linear_177:266)"
+                                    stroke-width="3" />
+                                <line y1="14.5" x2="40" y2="14.5" stroke="url(#paint2_linear_177:266)"
+                                    stroke-width="3" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_177:266" x1="20" y1="3" x2="20" y2="4"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="#16AF97" />
+                                    </linearGradient>
+                                    <linearGradient id="paint1_linear_177:266" x1="10" y1="29" x2="10" y2="30"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="#16AF97" />
+                                    </linearGradient>
+                                    <linearGradient id="paint2_linear_177:266" x1="20" y1="16" x2="20" y2="17"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="white" />
+                                        <stop offset="1" stop-color="#16AF97" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container-fluid p-0 w-75 tagline">
+                <div class="row p-0">
+                    <div class="col-md-3 p-0">
+                        <img src="assets/images/Stimo_Logo.png" alt="">
+                    </div>
+                </div>
+                <div class="row p-0">
+                    <div class="col-md-6  tagline-text mt-5 p-0">
+                        <p>
+                            Willkommen bei den Stimo Unternehmungen
+                        </p>
+                        <p class="heading-text pe-5">
+                            UNSER ENGAGEMENT IST IHR ERFOLG
+                        </p>
+                        <p class="p-0 pe-5 me-1">
+                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="container-fluid w-75 p-0">
+            <!-- KOMPETENZEN cards start -->
+            <div class="row mb-5">
+                <div class="col-md-12 p-0 pt-5 black-text mb-5">
+                    KOMPETENZEN
+                </div>
+            </div>
+            <div class="container-fluid px-4 m-2 mb-5">
+                <div class="row justify-content-center gx-4">
+                    <div class="col-md-6">
+                        <div class="container card-cont dark-blue ps-5">
+                            <div class="row ps-2 mb-4">
+                                <div class="col-md-6 card-cont-header align-self-end">
+                                    stimo GU
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-end pe-5">
+                                    <img class="pe-5" src="assets/images/image 33.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/ProjektEntwicklung.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5">
+                                    PROJEKTENTWICKLUNG
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/Baumanagement.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5">
+                                    BAUMANAGEMENT
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/REALISIERUNG.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5 mb-5">
+                                    REALISIERUNG
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container card-cont green-text ps-5">
+                            <div class="row ps-2 mb-4">
+                                <div class="col-md-6 card-cont-header align-self-end">
+                                    meinwohntraum
+                                </div>
+                                <div class="col-md-6 d-flex justify-content-end pe-5">
+                                    <img class="pe-4s" src="assets/images/image 11.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/kaufen.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5">
+                                    KAUFEN
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/verkaufen.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5">
+                                    VERKAUFEN
+                                </div>
+                            </div>
+                            <div class="row ps-2 py-3">
+                                <div class="col-md-1">
+                                    <img src="assets/images/bewirtschaften.png" alt="">
+                                </div>
+                                <div class="col-md-11 d-flex justify-content-start ps-5 mb-5">
+                                    BEWIRTSCHAFTEN
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- KOMPETENZEN cards end -->
+
+            <!-- AKTUELLES SECTION start -->
+            <div class="row mb-5">
+                <div class="col-md-12 p-0 pt-5 black-text mb-3">
+                    AKTUELLES
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-12 p-0 position-relative">
+                    <div class="tag position-absolute w-100 d-flex justify-content-end">
+                        <img src="assets/images/image 11 small.png" alt="">
+                    </div>
+                    <div class="post-title position-absolute w-100">
+                        NEUBAUPROJEKT: <br> IN KLOTEN REALISIERT
+                    </div>
+                    <img class="w-100" src="assets/images/NEUBAUPROJEKT.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-between mb-5">
+                <div class="col-md-4 d-flex flex-column justify-content-between pe-3">
+                    <div class="row mb-2">
+                        <div class="col-md-12 p-0 position-relative">
+                            <div class="tag-small position-absolute w-100 d-flex justify-content-end">
+                                <img src="assets/images/image 11 small.png" alt="">
+                            </div>
+                            <div class="post-title small-text position-absolute w-100">
+                                ZU VERMIETEN: <br> 4.5 ZIMMER IN KLOTEN
+                            </div>
+                            <img class="w-100" src="assets/images/VERMIETEN.png" alt="">
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-12 p-0 position-relative">
+                            <div class="tag-small position-absolute w-100 d-flex justify-content-end">
+                                <img src="assets/images/Stimo_Cube.png" alt="">
+                            </div>
+                            <div class="post-title small-text position-absolute w-100">
+                                NEU IM TEAM STIMO GU: <br> HERZLICH WILLKOMMEN
+                            </div>
+                            <img class="w-100" src="assets/images/Vanessa-Müntener-270x270_c 2.png" alt="">
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 position-relative d-flex justify-content-end p-0 ps-3">
+                    <div class="tag position-absolute w-100 d-flex justify-content-end">
+                        <img src="assets/images/Stimo_Cube.png" alt="">
+                    </div>
+                    <div class="post-title medium-text position-absolute w-100">
+                        STIMO GOLF TURNIER: <br> PLATZ 1 FÜR PETER NEUBAUER
+                    </div>
+                    <img class="w-100 h-100" src="assets/images/Golf.png" alt="">
+                    <div class="overlay overlay-fix"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-3 p-0 d-flex justify-content-center">
+                    <div class="gradient-box">
+                        <button class="button">
+                            weitere laden
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- AKTUELLES SECTION end -->
+            <!-- ÜBER UNS SECTION start -->
+            <div class="row mb-5">
+                <div class="col-md-12 p-0 pt-5 black-text mb-3">
+                    ÜBER UNS
+                </div>
+            </div>
+            <div class="row mb-5 justify-content-center height-fix">
+                <div class="col-md-5 d-flex justify-content-end position-relative">
+                    <img class="img-pos" src="assets/images/Urs-Stieger-270x270_c 1.png" alt="">
+                </div>
+                <div class="col-md-5 d-flex justify-content-start position-relative">
+                    <div class="paragraph-pos">
+                        <p class="paragraph pe-5">
+                            «Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut
+                            labore et dolore magna aliqua.»
+                        </p>
+                        <span class="span-font">
+                            Urs Stieger, CEO
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0 position-relative background-overlay">
+        <div class="container-fluid w-75 p-0">
+
+            <div class="row mb-5 pt-3 justify-content-center ms-4">
+                <div class="col-md-1 me-4">
+                    <img src="assets/images/mann3star 1.png" alt="">
+                </div>
+                <div class="col-md-9 ms-5 ps-5">
+                    <div class="card-title">
+                        PROFESSIONELL
+                    </div>
+                    <div class="card-text">
+                        Richtige Planung von der Vorbereitung <br> bis zur Bauvollendung für Ihr Projekt.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 pt-3 justify-content-center ms-4">
+                <div class="col-md-1 me-4">
+                    <img src="assets/images/Zeit 1.png" alt="">
+                </div>
+                <div class="col-md-9 ms-5 ps-5">
+                    <div class="card-title">
+                        QUALITÄT
+                    </div>
+                    <div class="card-text">
+                        Wir verbauen Materialien mit hohen <br> Qualitätsansprüchen aus bester Schweizer
+                        Fabrikation.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 pt-3 justify-content-center ms-4">
+                <div class="col-md-1 me-4">
+                    <img src="assets/images/mann3haken 1.png" alt="">
+                </div>
+                <div class="col-md-9 ms-5 ps-5">
+                    <div class="card-title">
+                        KOMPETENT
+                    </div>
+                    <div class="card-text">
+                        Unsere Bau-/Projektleiter haben langjährige <br> Erfahrung und bieten Ihnen eine
+                        professionelle
+                        Unterstützung.
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 pt-3 justify-content-center ms-4">
+                <div class="col-md-1 me-4">
+                    <img src="assets/images/Kommunikation 1.png" alt="">
+                </div>
+                <div class="col-md-9 ms-5 ps-5">
+                    <div class="card-title">
+                        PERSÖNLICH
+                    </div>
+                    <div class="card-text">
+                        Sie als Auftraggeber erhalten alles aus einer Hand. Wir <br> nehmen Ihre Wünsche
+                        ernst und
+                        betreuen
+                        Sie persönlich.
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center pt-5">
+                <div class="col-md-3 p-0 mb-5 d-flex justify-content-center">
+                    <div class="gradient-box mb-5">
+                        <button class="button button-gray">
+                            mehr erfahren
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ÜBER UNS SECTION end -->
+    <div class="container-fluid p-0">
+        <div class="row w-100 justify-content-center align-items-center gradient row-height m-0 p-0">
+            <div class="col-md-8 white-text d-flex justify-content-center extra-padding">
+                WIR SUCHEN BAULAND
+            </div>
+            <div class="col-md-4 p-0">
+                <div class="gradient-box gradient-box-white d-flex align-items-center">
+                    <button class="button button-alternate">
+                        mehr erfahren
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="container-fluid w-75 p-0 mx-auto">
+            <div class="row">
+                <div class="col-md-12 my-5">
+                    <img class="my-5" src="assets/images/stimo-footer-logo.png" alt="">
+                    <p class="small-text bold mb-5">
+                        stimo Unternehmungen <br>
+                        Lindengartenstrasse 6 <br>
+                        CH 8302 Kloten <br><br>
+
+                        044 800 70 80 <br>
+                        info@stimo.ch
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <img class="w-100" src="assets/images/footer-art.png" alt="">
+    </div>
+
+    <script src="menu.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
