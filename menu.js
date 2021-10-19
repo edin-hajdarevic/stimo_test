@@ -14,5 +14,5 @@ closeMenu.addEventListener("click", () => {
     menu.style.opacity = 0;
     menu.style.pointerEvents = "none";
     menu.style.transform = "translateX(40%)";
-    menu.style.zIndex = 0;
+    menu.style.zIndex = -1;
 })
